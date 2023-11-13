@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bluespringstest/wccexercise/issues"
   },
-  "homepage": "https://github.com/bluespringstest/wccexercise#readme"
+  "homepage": "https://github.com/bluespringstest/wccexercise#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
