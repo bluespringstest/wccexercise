@@ -1,0 +1,20 @@
+{
+  "name": "wccexercise",
+  "version": "1.0.0",
+  "description": "This repo contains a solution for the exercise given by WCC as part of the interview process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluespringstest/wccexercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluespringstest/wccexercise/issues"
+  },
+  "homepage": "https://github.com/bluespringstest/wccexercise#readme"
+}
