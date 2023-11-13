@@ -1,9 +1,9 @@
 class mainPagePo {
 
     locators = {
-        cookiesYes : 'div.text-centre > button.primary-button',
+        cookiesYes : '.text-center > .primary-button',
         cookiesNo: 'a[href="/report-it"]',
-        startButton: 'span.btn-text.col-auto font-weight-normal.font-normal'
+        startButton: '.mx-auto > .primary-button'
     }
 }
 
