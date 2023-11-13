@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/bluespringstest/wccexercise#readme",
   "devDependencies": {
+    "@types/node": "^20.9.0",
     "typescript": "^5.2.2"
   }
 }
