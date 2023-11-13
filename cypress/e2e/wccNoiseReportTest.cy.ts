@@ -1,7 +1,13 @@
+import MainReportPage from "../page-objects/main-page.po";
+
 describe('Online complaints process', () => {
-    it('should allow user to navigate to the website', () => {});
-    it('should allow the complaint process to start with cookies', () => {});
-    it('should not allow erroneous contact details to be entered', () => {});
-    it('should allow valid contact details to be entered', () => {});
-    it('should move onto the next step when prompted', () => {});
+    it('should allow user to add details for noise complaint with cookies', () => {
+        cy.visit('https://mywestminster.westminster.gov.uk/report-it/noise');
+        cy.get(MainReportPage.locators.cookiesYes).click();
+        cy.get(MainReportPage.locators.startButton).click();
+    });
+    // it('should allow user to add details for noise complaint without cookies', () => {
+    //     cy.get(MainReportPage.locators.cookiesNo).click();
+    //     cy.get(MainReportPage.locators.startButton).click();
+    // });
 });
